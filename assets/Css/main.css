@@ -14,12 +14,22 @@
         width: 1170px;
         margin: 0px auto;
     }
-
+/* ======================================= STYLE FOR HEADER ======================================= */
     #header {
         background-color: #23282D;
         height: 120px;
     }
 
+    /*---------------------------- STYLE FOR PRE-HEADER---------------------------- */
+    #pre-header {
+        flex-direction: row;
+        padding-top: 34px;
+    }
+
+    #pre-header {
+        margin-bottom: 5px;
+    }
+    /*---------------------------- STYLE FOR MENU---------------------------- */
     #menu .nav-link {
         display: flex;
         flex-direction: row;
@@ -33,7 +43,7 @@
         color: #4db2ec;
     }
 
-    ul {
+    #menu ul {
         padding-left: 0px;
     }
 
@@ -44,18 +54,25 @@
         padding-right: 42px;
     }
 
-    #pre-header {
-        flex-direction: row;
-        padding-top: 34px;
+    #menu img {
+        float: right;
     }
 
+    #menu .nav-menu {
+        float: left;
+    }
+
+    .clear-both {
+        clear: both;
+    }
+
+     /*------------------------ STYLE FOR LOGO AND FORM SEARCH----------------- */
     #logo {
         float: left;
     }
 
     #search {
         float: right;
-
     }
 
     #search input {
@@ -64,21 +81,7 @@
         width: 236px;
     }
 
-    .clear-both {
-        clear: both;
-    }
-
-    #pre-header {
-        margin-bottom: 5px;
-    }
-
-    img {
-        float: right;
-    }
-
-    .nav-menu {
-        float: left;
-    }
+/* ======================================= STYLE FOR HIGHLIGHT BLOCK ======================================= */
 
     #highlight {
         margin-bottom: 22px;
@@ -134,8 +137,13 @@
         font-weight: 700;
     }
 
+/* ======================================= STYLE FOR Main ======================================= */
     #wapper #main .container {
         height: 500px;
+    }
+
+    #main {
+        min-height: 1500px;
     }
 
     #tile-content-main {
@@ -147,11 +155,7 @@
         text-align: center;
 
     }
-
-    #main {
-        min-height: 1500px;
-    }
-
+   
     #main .container #content-main hr {
         width: 100%;
         margin: 0px;
@@ -160,6 +164,8 @@
         border: #4DB2EC;
     }
 
+
+/* ------------------------------ STYLE FOR CONTENT MAIN -------------------------- */
     #content-main {
         width: 100%;
         display: flex;
@@ -177,6 +183,7 @@
         padding-left: 15px;
     }
 
+/* ------------------------------ STYLE FOR LEFT-------------------------- */
     #left .item {
         width: 100%;
         display: flex;
@@ -213,6 +220,8 @@
     #left .item .infor a:hover {
         color: #4db2ec;
     }
+
+/* =============================== STYLE FOR RIGHT ================================ */
 
     #right #intro .backgound {
         background-image: url("..//Image/code-1076536_640.jpg");
@@ -270,7 +279,7 @@
         border: #FF2D2D !important;
         margin-bottom: 37px !important;
     }
-
+/* ------------------------------ STYLE for topic of sidebar(Right) -------------------------- */
     #topic .content .item {
         display: flex;
         flex-direction: row;
@@ -291,6 +300,8 @@
         color: #FF2D2D;
     }
 
+
+/* ======================================================= STYLE FOR FOOTER=================================================== */
     #footer {
         background-color: #2E2F30;
         padding: 53px 0px;
@@ -351,6 +362,7 @@
         padding-top: 50px;
     }
 
+/* ======================================================= STYLE FOR COPYRIGHT=================================================== */
     #copyright {
         background-color: #222527;
     }
